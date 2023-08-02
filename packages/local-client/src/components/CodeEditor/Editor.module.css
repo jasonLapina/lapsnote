@@ -1,0 +1,5 @@
+.container {
+  margin-inline: auto;
+  width: calc(100% - 10px);
+  height: 100%;
+}

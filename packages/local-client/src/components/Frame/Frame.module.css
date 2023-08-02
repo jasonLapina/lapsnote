@@ -1,0 +1,27 @@
+.wrapper {
+  position: relative;
+  height: 100%;
+  flex-grow: 1;
+}
+.wrapper:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.wrapper iframe {
+  height: 100%;
+  background: none !important;
+  width: 100%;
+}
+
+.error {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: red;
+}

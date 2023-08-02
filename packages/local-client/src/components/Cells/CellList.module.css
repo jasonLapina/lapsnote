@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.react-draggable-transparent-selection .wrapper {
+  margin-bottom: 100vh;
+}

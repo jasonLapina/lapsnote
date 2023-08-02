@@ -1,0 +1,35 @@
+.innerContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.progressWrapper {
+  height: 100%;
+  display: flex;
+  flex-grow: 1;
+  background-color: white;
+  position: relative;
+}
+
+.progressWrapper progress {
+  left: 50%;
+  top: 50%;
+  width: 200px;
+  transform: translate(-50%, -50%);
+  padding-inline: 24px;
+  animation: fadeIn 0.5s;
+  position: absolute;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

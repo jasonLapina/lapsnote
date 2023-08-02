@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  background-color: #37414b;
+}
+
+.wrapper > * {
+  transition: all 0.4s;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: darkorange;
+  border: none;
+}
+.wrapper > *:hover {
+  background-color: white;
+  color: darkorange;
+}
+.wrapper > *:last-child:hover {
+  background-color: white;
+  color: red;
+}

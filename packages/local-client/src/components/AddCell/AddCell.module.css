@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  column-gap: 80px;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 2px;
+  background-color: #37414b;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 40px;
+  opacity: 0.1;
+  transition: opacity 0.4s;
+}
+.wrapper:hover {
+  opacity: 1;
+}
+
+.wrapper > * {
+  border-radius: 100px;
+  background-color: darkorange;
+  font-size: 20px;
+  transition: all 0.4s;
+}
+.wrapper > *:hover {
+  background-color: darkorange;
+}
