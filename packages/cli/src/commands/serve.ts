@@ -1,6 +1,6 @@
 import { Command } from "commander";
 import path from "path";
-import { serve } from "local-api";
+import { serve } from "@lapsnote/local-api";
 
 interface LocalApiError {
   code: string;

@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.serveCommand = void 0;
 const commander_1 = require("commander");
 const path_1 = __importDefault(require("path"));
-const local_api_1 = require("local-api");
+const local_api_1 = require("@lapsnote/local-api");
 const isProduction = process.env.NODE_ENV === "production";
 exports.serveCommand = new commander_1.Command()
     .command("serve [filename] ")
